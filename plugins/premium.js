@@ -18,7 +18,7 @@ Kalo Mau Join Grup / Jadi Premium
 Silahkan Chat Kontak Yang Ada Dibawah Ini 
 `.trim()) 
   
-  conn.sendContact(m.chat, '6281390199407', 'Adul Alhy', m)
+  conn.sendContact(m.chat, '6485249231619', 'Tata', m)
 }
 handler.help = ['premium', 'shop', 'infopremium']
 handler.tags = ['info']

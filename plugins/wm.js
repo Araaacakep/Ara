@@ -24,7 +24,7 @@ let handler = async (m, { conn, text }) => {
       let img = await q.download()
       let link = await uploadFile(img)
       if (!img) throw `balas video dengan perintah ${usedPrefix + command} <packname>|<author>`
-      stiker = await sticker(0, link, packname || 'Nana-Md', author || 'Adul Alhy')
+      stiker = await sticker(0, link, packname || 'ara', author || 'amrita')
     }
   } finally {
     if (stiker) await conn.sendFile(m.chat, stiker,'','',m)
